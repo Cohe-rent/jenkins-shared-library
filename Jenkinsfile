@@ -1,5 +1,12 @@
-├── vars/
-│   ├── helloWorld.groovy  # A reusable function
-├── src/  # Optional (for helper classes)
-├── resources/  # Optional (for configs)
-├── README.md
+@Library('my-shared-library') _  // Load library (configured in Jenkins)
+
+pipeline {
+    agent any
+    stages {
+        stage('Greet') {
+            steps {
+                helloWorld('Jenkins User')  // Call the function from shared library
+            }
+        }
+    }
+}

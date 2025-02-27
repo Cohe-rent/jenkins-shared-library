@@ -1,4 +1,4 @@
-@Library('my-shared-library@main') _  // Ensure the library name and branch are correct
+@Library('jenkins-shared-library') _  // Match the Jenkins global library name
 
 pipeline {
     agent any
@@ -6,7 +6,7 @@ pipeline {
         stage('Greet') {
             steps {
                 script {
-                    helloWorld('Jenkins User')  // Call function from shared library
+                    helloWorld('Jenkins User')  // Calls vars/helloWorld.groovy
                 }
             }
         }

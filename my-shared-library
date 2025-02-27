@@ -1,7 +1,10 @@
 jenkins-shared-library/
 ├── vars/
-│   ├── helloWorld.groovy
-├── resources/
-├── src/
-├── test/
+│   ├── helloWorld.groovy      
+│   ├── anotherFunction.groovy 
+├── src/                       
+│   ├── com/
+│   │   ├── example/
+│   │   │   ├── Helper.groovy  
+├── resources/                 
 ├── README.md

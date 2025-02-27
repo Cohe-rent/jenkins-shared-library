@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library') _  // Match the Jenkins global library name
+@Library('my-shared-library') _  // Match the Jenkins global library name
 
 pipeline {
     agent any

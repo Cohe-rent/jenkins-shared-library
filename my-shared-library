@@ -1,10 +1,8 @@
-jenkins-shared-library/
+(jenkins-shared-library repo)
 ├── vars/
-│   ├── helloWorld.groovy      
-│   ├── anotherFunction.groovy 
-├── src/                       
-│   ├── com/
-│   │   ├── example/
-│   │   │   ├── Helper.groovy  
-├── resources/                 
+│   ├── helloWorld.groovy  <-- This should define sayHello()
+│   ├── anotherFunction.groovy
+├── src/
+│   ├── (if needed, additional Groovy classes)
+├── resources/
 ├── README.md

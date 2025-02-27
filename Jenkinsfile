@@ -1,11 +1,13 @@
-@Library('my-shared-library') _  // Load library (configured in Jenkins)
+@Library('my-shared-library') _  // Ensure the library name is correct
 
 pipeline {
     agent any
     stages {
         stage('Greet') {
             steps {
-                helloWorld('Jenkins User')  // Call the function from shared library
+                script {
+                    helloWorld('Jenkins User')  // Call the function from shared library
+                }
             }
         }
     }

@@ -1,4 +1,4 @@
-// vars/sayHello.groovy
+// vars/helloWorld.groovy
 def call(String name = 'User') {
     echo "Hello, ${name}!"
 }

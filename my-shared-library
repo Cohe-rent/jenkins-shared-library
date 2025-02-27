@@ -1,5 +1,7 @@
+my-shared-library/
 ├── vars/
-│   ├── helloWorld.groovy  # A reusable function
-├── src/  # Optional (for helper classes)
-├── resources/  # Optional (for configs)
-├── README.md
+│   ├── helloWorld.groovy    # Shared functions (global scripts)
+├── src/                     # (Optional) Groovy classes/packages
+├── resources/               # (Optional) Configuration files
+├── Jenkinsfile              # (For testing the shared library)
+├── README.md                # Documentation

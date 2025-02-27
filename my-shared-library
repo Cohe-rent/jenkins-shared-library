@@ -1,7 +1,7 @@
-my-shared-library/
+jenkins-shared-library/
 ├── vars/
-│   ├── helloWorld.groovy    # Shared functions (global scripts)
-├── src/                     # (Optional) Groovy classes/packages
-├── resources/               # (Optional) Configuration files
-├── Jenkinsfile              # (For testing the shared library)
-├── README.md                # Documentation
+│   ├── helloWorld.groovy
+├── resources/
+├── src/
+├── test/
+├── README.md
